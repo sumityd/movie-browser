@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
+    padding: 10px;
+}
+
+.header-center {
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    height: 30px;
+    padding: 10px;
+}
+
+.header-center > input {
+    border: none;
+    width: 250px;
+    outline-width: 0;
+    padding: 10px;
+}
+
+.header-right {
+    margin-right: 15px;
+}
